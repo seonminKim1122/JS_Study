@@ -53,12 +53,44 @@ alert(`Hello, ${name}!`); // Hello, John!
 alert(`the result is ${1 + 2}`) // the result is 3
 ```
 
+<br>
+
 ### 불린형
+- true, false 값을 가지는 논리 타입
+- 비교 결과를 저장할 때도 사용
+```javascript
+let nameFieldChecked = true;
+let ageFieldChecked = false;
+let isGreater = 4 > 1;
+```
+
+<br>
 
 ### null
+- 오로지 null 값만 포함하는 별도의 자료형
+- 존재하지 않는 값, 비어 있는 값, 알 수 없는 값을 나타내는 데 사용
+```javascript
+// 나이를 알 수 없거나 값이 비어 있음을 의미
+let age = null;
+```
+
+<br>
 
 ### undefined
+- '값이 할당되지 않은 상태'를 나타낼 때 사용
+- 변수를 선언만 하고 값을 할당하지 않으면 'undefined' 가 자동으로 할당
+```javascript
+let age;
+alert(age); // undefined
+```
+- undefined 는 자동 할당될 때만 사용하고, 값이 비어있거나 알 수 없음을 나타내고 싶을 때는 'null' 을 사용할 것은 권장
+
+<br>
 
 ### 객체형
+- 원시 타입 자료형과 달리 데이터 컬렉션이나 보다 복잡한 객체 표현
+
+<br>
 
 ### 심볼형
+- 객체의 고유한 식별자를 만들 때 사용
